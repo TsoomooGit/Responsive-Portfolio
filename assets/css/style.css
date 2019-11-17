@@ -1,0 +1,170 @@
+
+
+body { 
+  background:lightgrey;
+}
+
+.header {
+  background-color:white;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  position:relative;
+}
+
+.header a {
+  float: right;
+  padding: 40;
+  margin: -100 320 9px -375px;
+  text-decoration: none;
+  color: grey;
+}
+
+
+.Section{
+  width: 960px;
+  background: white;
+  height: 650px;
+  float: left;
+  margin: 10 200 40 325;
+}
+
+
+h2{
+  display: inline-block;
+  border-bottom: 2px solid grey;
+  padding: 20;
+  width: 85%;
+  color: #4b9ea9;
+  margin-left: 25;
+}
+
+img{
+  margin: 15px 50px 10px 15px;
+  width: 200;
+  height: 150px;
+  border:1px solid grey;
+}
+
+#my-pic{
+  float:left;
+  margin: 15px 50px 10px 15px;
+  width: 200px;
+  height: 150;
+}
+
+h1{
+  
+    margin-left:20%;
+    background:lightseagreen;
+    width: 20%;
+    height: 100%;;
+    text-align: center;
+    color:white;
+    line-height: 2;
+    margin-top:0px;
+}
+
+p{
+color:gray;
+  margin:0px 30px;
+  line-height: 35pt;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: grey;
+  color: white;
+  text-align: center;
+  border-top: 5px solid #1791a0;
+}
+
+input[type=text]{
+  width: 90%;
+  margin: 10 10 10 20;
+}
+input[type=big-text]{
+  width: 90%;
+  margin: 10 10 10 20;
+  padding: 60 70;
+}
+label{
+  padding: 20px;
+  text-decoration: none;
+  color: #715f5f;
+}
+input[type=submit]{
+  background-color:#4b9ea9;;
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-decoration: none;
+    margin: 20;
+    cursor: pointer;
+}
+
+span{
+  float: left;
+}
+
+#container{
+  width:600px;
+}
+
+.inner-div{
+  position: absolute;
+  margin: -60 10 5 14;
+  background: #4b9ea9;
+  padding: 10 87;
+  width: 30px;
+  color:white;
+}
+
+input::placeholder{
+  color:lightgray;
+}
+
+
+
+@media (max-width: 980px){
+  .Section {
+    width: 750px;
+    margin: 20px 20px 100px 100px;
+}
+h1 {
+  margin-left: 100;
+  width: 30%;
+}
+.header a {
+  padding: 65px;
+  margin: -130 120px 10px -220px;
+}
+}
+@media (max-width: 768px){
+  .Section{
+    width: 650px;
+    margin: 20px 20px 100px 40px;
+  }
+}
+
+@media (max-width: 640px){
+  .Section{
+    width: 500px;
+    margin: 20px 20px 100px 40px;
+  }
+  h1{
+    margin-left: 40px;
+      width: 30%;
+  }
+  .header a {
+    padding: 55px;
+    margin: -120 120px 9px -220px;
+  }
+  p{
+    line-height: 23pt;
+  }
+  }
